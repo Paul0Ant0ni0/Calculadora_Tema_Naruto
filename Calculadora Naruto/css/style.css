@@ -1,0 +1,105 @@
+@font-face {
+    font-family: ninja naruto;
+    src: url(/Projeto/fonts/njnaruto.ttf);
+}
+
+
+* {
+    box-sizing: border-box;
+    width: auto;
+    height: auto;
+}
+
+body {
+    background-image: url(/img/bg.naruto.gif);
+    color: white;
+    background-repeat: no-repeat;                                  
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+
+}
+
+#conteudo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;                                                                                                                               
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+h1 {
+    font-family: ninja naruto;
+    color: white;
+    background-color: rgba(56, 25, 0, 0.568);
+    border-radius: 25px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(253, 80, 0);
+}
+
+table {
+    width: 185px;
+    height: 438px;
+    padding: 10px;;
+    background-image: url(/img/bg.calc.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 8px solid rgb(35, 35, 43);
+    border-radius: 39px;
+    text-align: center;
+    box-shadow: 0 0em 1em 1em rgba(65, 63, 68, 0.541) ;
+    transition: 2s;
+
+}
+
+td {
+    height: 42px;
+    width: 40px;
+    background-color: rgba(6, 2, 41, 0.336);
+    border-radius: 5px;
+    margin: 20px;
+}
+
+input[type=button] {
+    width: 45px;
+    height: 45px;
+    font-size: 15px;
+    background-color:rgba(56, 44, 56, 1);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+
+}
+
+input[type=button]:hover{
+    background-color: orangered;
+    border-color: orange;
+    box-shadow: 03px 05px 15px yellow;
+}
+
+
+th>input[type=button]{
+    width: 115px;
+}
+
+input[type=text] {
+    background: rgba(29, 119, 70, 1);
+    border-radius: 15px;
+    height: 90px;
+    color: bisque;
+    font-size: 20px;
+    box-shadow: inset -5px 1px 15px rgb(42, 176, 102);
+
+}
+
+input::placeholder {
+    color: #BEBEBE;
+    text-align: right;
+  }
+
+
+

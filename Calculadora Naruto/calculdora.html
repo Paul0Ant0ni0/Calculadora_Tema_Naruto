@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Naruto Uzumaki</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="./js/javascript.js"></script>
+    
+</head>
+<body>
+
+    <div id="conteudo">
+        <h1>Calculadora Naruto</h1>
+        <table>
+            <th colspan="4"><input id="resultado" type="text" placeholder="0" disabled="disabled"></th>
+            <tr>
+                <th colspan="2"><input class="button" type="button" value="C" onclick="calcular('acao', 'c')"></th>
+                <td><input class="button" type="button" value="/" onclick="calcular('acao', '/')"></td>
+                <td><input class="button" type="button" value="&larr;" onclick="calcular('acao', '&larr')"></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="7" name="btn7" onclick="calcular('valor', 7)"></td>
+                <td><input class="button" type="button" value="8" onclick="calcular('valor', 8)"></td>
+                <td><input class="button" type="button" value="9" onclick="calcular('valor', 9)"></td>
+                <td><input class="button" type="button" value="X" onclick="calcular('acao', '*')"></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="4" onclick="calcular('valor', 4)"></td>
+                <td><input class="button" type="button" value="5" onclick="calcular('valor', 5)"></td>
+                <td><input class="button" type="button" value="6" onclick="calcular('valor', 6)"></td>
+                <td><input class="button" type="button" value="-" onclick="calcular('acao', '-')"></td>
+            </tr>
+            <tr>
+                <td><input class="button" type="button" value="1" onclick="calcular('valor', 1)"></td>
+                <td><input class="button" type="button" value="2" onclick="calcular('valor', 2)"></td>
+                <td><input class="button" type="button" value="3" onclick="calcular('valor', 3)"></td>
+                <td><input class="button" type="button" value="+" onclick="calcular('acao', '+')"></td>
+            </tr>
+            <tr>
+                <th colspan="2"><input type="button" value="0" onclick="calcular('valor', 0)"></th>
+                <td><input class="button" type="button" value="." onclick="calcular('acao', '.')"></td>
+                <td><input class="button" type="button" value="=" onclick="calcular('acao', '=')"></td>
+        
+            </tr>
+        </table>
+        
+    </div>
+
+
+    <img src="./img/n.png" style="height: 25%; width: 22%; ">
+    <img src="./img/naruto.png" style="height: 25%; width: 22%; ">
+    <img src="./img/modo.s" style="height: 25%; width: 22%; ">
+    <img src="./img/modo.b.png" style="height: 25%; width: 22%; ">
+
+</body>
