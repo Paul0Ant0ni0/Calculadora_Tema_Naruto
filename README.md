@@ -8,6 +8,11 @@ Link: https://projeto-calculadora-tema-naruto.netlify.app/
 
 <br><hr>
 
+<h2> Video do projeto</h2>
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/S0bXe9I"  ><a href="//imgur.com/a/S0bXe9I">Calculadora Naruto</a>
+<br><hr>
+
 <h2> Imagem do projeto</h2>
 
 
@@ -15,3 +20,5 @@ Link: https://projeto-calculadora-tema-naruto.netlify.app/
 
 <h2>Referência</h2>
 <p>Curso: Desenvolvimento Web Completo 2022 - 20 cursos + 20 projetos - Udemy</p>
+
+
